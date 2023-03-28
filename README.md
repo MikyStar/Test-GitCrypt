@@ -2,7 +2,7 @@
 
 ## Description
 
-Git-Crypt enables committing files encrypted from the server perspective but not locally
+Git-Crypt enables committing files encrypted from the server perspective but not locally, which means being able to trace changes accross protected files
 
 ## Links
 
