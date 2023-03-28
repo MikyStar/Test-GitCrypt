@@ -15,8 +15,16 @@ Git-Crypt enables committing files encrypted from the server perspective but not
 git-crypt init
 ```
 
+```sh
+git-crypt export-key /path/to/key # Export the key
+```
+
 > Add files to encrypt to .gitattributes
 
 ```sh
 git-crypt status # To check what files will be encrypted
+```
+
+```sh
+git-crypt unlock /path/to/key  # To unlock files handled with git-crypt
 ```
